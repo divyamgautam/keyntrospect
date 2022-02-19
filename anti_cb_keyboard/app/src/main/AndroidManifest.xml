@@ -11,8 +11,13 @@
         android:theme="@style/Theme.Anti_cb_keyboard">
         <service
             android:name=".keyntrospect"
-            android:enabled="true"
-            android:exported="false"></service>
+            android:label="keyntrospect"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+            <meta-data android:name="android.view.im" android:resource="@xml/method"/>
+            <intent-filter>
+                <action android:name="android.view.InputMethod"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
