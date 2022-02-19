@@ -68,7 +68,6 @@
         <Key android:keyLabel="," android:keyWidth="10dp" android:keyEdgeFlags="left" android:codes="113"/>
         <Key android:keyLabel="Space" android:keyWidth="40dp" android:isRepeatable="true" android:codes="32"/>
         <Key android:keyLabel="Done" android:keyWidth="20dp" android:keyEdgeFlags="right" android:codes="-4"/>
-
     </Row>
 
 </Keyboard>
